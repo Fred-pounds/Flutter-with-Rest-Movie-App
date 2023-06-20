@@ -95,10 +95,10 @@ packages:
     dependency: "direct main"
     description:
       name: get_it
-      sha256: a36b6e1d7ae8b60b323aad109915cfe32ff7211406e5191e4bb7e6c0264d48bb
+      sha256: "529de303c739fca98cd7ece5fca500d8ff89649f1bb4b4e94fb20954abcd7468"
       url: "https://pub.dev"
     source: hosted
-    version: "6.0.0"
+    version: "7.6.0"
   http_parser:
     dependency: transitive
     description:

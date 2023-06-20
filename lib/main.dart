@@ -1,4 +1,6 @@
+//packages
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 //Pages
 import './Pages/splash_page.dart';
@@ -8,7 +10,8 @@ void main() {
   runApp(
     SplashPage(
         key: UniqueKey(),
-        onInitializationComplete: () => runApp(MyApp as Widget)),
+        onInitializationComplete: () =>
+            runApp(const ProviderScope(child: MyApp()))),
   );
 }
 
